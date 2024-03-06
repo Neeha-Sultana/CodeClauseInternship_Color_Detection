@@ -1,6 +1,5 @@
 import cv2
 import pandas as pd
-
 # declaring global variables (are used later on)
 r = g = b = x_pos = y_pos = 0
 clicked = False
