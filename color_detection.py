@@ -9,8 +9,6 @@ img = cv2.imread(im_path)
 # Reading csv file with pandas and giving names to each column
 ind = ["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=ind, header=None)
-
-
 # function to calculate minimum distance from all colors and get the most matching color
 def id_col_name(R, G, B):
     mini = 10000
