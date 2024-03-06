@@ -7,7 +7,6 @@ image_file_name=input("Enter image file name: ")
 im_path = image_file_name
 img = cv2.imread(im_path)
 
-
 # Reading csv file with pandas and giving names to each column
 ind = ["color", "color_name", "hex", "R", "G", "B"]
 csv = pd.read_csv('colors.csv', names=ind, header=None)
