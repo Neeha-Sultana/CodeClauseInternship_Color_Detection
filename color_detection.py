@@ -3,7 +3,6 @@ import pandas as pd
 # declaring global variables (are used later on)
 r = g = b = x_pos = y_pos = 0
 clicked = False
-
 image_file_name=input("Enter image file name: ")
 im_path = image_file_name
 img = cv2.imread(im_path)
