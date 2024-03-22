@@ -34,7 +34,6 @@ cv2.setMouseCallback('image', draw_func)
 while True:
     cv2.imshow("image", img)
     if clicked:
-
         # cv2.rectangle(image, start point, endpoint, color, thickness)-1 fills entire rectangle
         cv2.rectangle(img, (20, 20), (750, 60), (b, g, r), -1)
 
