@@ -45,7 +45,6 @@ while True:
         # For very light colours we will display text in black colour
         if r + g + b >= 600:
             cv2.putText(img, text, (50, 50), 2, 0.8, (0, 0, 0), 2, cv2.LINE_AA)
-
         clicked = False
     # Break the loop when user hits 'esc' key
     if cv2.waitKey(20) & 0xFF == 27:
